@@ -133,7 +133,7 @@ https://github.com/KanchanaRangcharoen/Kube
 
 ## 1. dashboard
 
-![image](https://user-images.githubusercontent.com/119097663/226111510-05b6c0ae-3697-4131-9046-29b128c18153.png)
+![image](https://user-images.githubusercontent.com/98762543/226186945-0f334abf-5bab-4c3b-bd93-3395953835b8.png)
 
 ## 2. https://traefik.spcn01.local/dashboard/#/http/routers
 
