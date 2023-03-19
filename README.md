@@ -97,13 +97,13 @@ https://github.com/KanchanaRangcharoen/Kube
    ```ruby
    kubectl apply -f https://raw.githubusercontent.com/traefik/traefik/v2.9/docs/content/reference/dynamic-configuration/kubernetes-crd-definition-v1.yml
    ```
-    ![image](https://user-images.githubusercontent.com/119097663/226110351-c7723d93-8ae9-4f29-889f-9ed8690b1473.png)
+    ![image](https://user-images.githubusercontent.com/98762543/226187109-13febdfc-8359-4952-ad10-652f7b8addde.png)
 
 2. Install RBAC for Traefik
    ```ruby
    kubectl apply -f https://raw.githubusercontent.com/traefik/traefik/v2.9/docs/content/reference/dynamic-configuration/kubernetes-crd-rbac.yml
    ```
-    ![image](https://user-images.githubusercontent.com/119097663/226110502-6a296779-962a-40df-b759-3edd801cda8f.png) 
+    ![image](https://user-images.githubusercontent.com/98762543/226187151-438a9b42-3e2f-447d-b4f5-c097b594fbea.png) 
 
 3. Install Traefik Helmchart
    ```ruby
@@ -111,26 +111,23 @@ https://github.com/KanchanaRangcharoen/Kube
    helm repo update 
    helm install traefik traefik/traefik 
    ```
-    ![image](https://user-images.githubusercontent.com/119097663/226110649-5b8ae072-6e3f-42b6-b231-a57d28ed1fe1.png) 
+   ![image](https://user-images.githubusercontent.com/98762543/226187245-b86a9148-ca99-4e3e-a88f-f4d948869797.png)
 
 4. Verify service is running
    ```ruby
    kubectl get svc -l app.kubernetes.io/name=traefik
    kubectl get po -l app.kubernetes.io/name=traefik
    ```
-    ![image](https://user-images.githubusercontent.com/119097663/226110849-021d582a-9f75-4685-94c1-2b1569d90ec5.png)
+   
 
 5. copy user in dashboard-secret place it at user in traefik-dashboard
 
-   ![image](https://user-images.githubusercontent.com/119097663/226111225-d3332af2-4db6-49b1-8a8f-43e3b769609f.png)
-
-   ![image](https://user-images.githubusercontent.com/119097663/226111244-a7ec1e11-8f01-4070-88ba-0c7a88f83cc1.png)
 
 6. Deploy
    ```ruby
    kubectl apply -f . 
    ```
-   ![image](https://user-images.githubusercontent.com/119097663/226111342-4fa25c0d-bdf7-4beb-95fb-dc99e68fc341.png)
+   ![image](https://user-images.githubusercontent.com/98762543/226187372-a22e3b51-0719-4c10-b87d-029e2b4a95d9.png)
 
 ## Result
 
