@@ -135,10 +135,10 @@ https://github.com/KanchanaRangcharoen/Kube
 
 ![image](https://user-images.githubusercontent.com/98762543/226186966-06e51b81-db0f-4e26-82af-d2f4f30137d9.png)
 
-## 2. https://traefik.spcn01.local/dashboard/#/http/routers
+## 2. https://traefik.spcn25.local/dashboard/#/
 
 ![image](https://user-images.githubusercontent.com/98762543/226187618-971f8f12-712b-4dad-909d-49da7e19daae.png)
 
-## 5. http://web.spcn01.local/
+## 5. http://web.spcn25.local/
 
 ![image](https://user-images.githubusercontent.com/98762543/226187632-bf6378f5-e3f9-4e23-8eb8-9964977e61a5.png)
