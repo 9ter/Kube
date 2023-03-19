@@ -1,4 +1,4 @@
-## spcn01 
+
 ## Kubernetes In Windows
 
 ## Wakatime
@@ -72,13 +72,13 @@ https://github.com/KanchanaRangcharoen/Kube
    ```ruby
    minikube start --driver=docker
    ```
-   ![image](https://user-images.githubusercontent.com/119097663/224906660-5f08fbf8-5503-44e7-bb24-05a45ade8ab6.png)
+   ![image](https://user-images.githubusercontent.com/98762543/226186945-0f334abf-5bab-4c3b-bd93-3395953835b8.png)
 
 2. Run with open dashboard
    ```ruby
    minikube dashboard
    ```
-   ![image](https://user-images.githubusercontent.com/119097663/225030868-71ccdda7-bb69-4287-802b-5111ab70fe0f.png)
+   ![image](https://user-images.githubusercontent.com/98762543/226186966-06e51b81-db0f-4e26-82af-d2f4f30137d9.png)
 
 3. Test services
    ```ruby
