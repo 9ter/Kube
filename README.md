@@ -137,8 +137,8 @@ https://github.com/KanchanaRangcharoen/Kube
 
 ## 2. https://traefik.spcn01.local/dashboard/#/http/routers
 
-![image](https://user-images.githubusercontent.com/119097663/226111614-134d01a9-e803-4659-8d65-8929cb80d2a2.png)
+![image](https://user-images.githubusercontent.com/98762543/226187618-971f8f12-712b-4dad-909d-49da7e19daae.png)
 
 ## 5. http://web.spcn01.local/
 
-![image](https://user-images.githubusercontent.com/119097663/226111754-5f76adc7-2ad2-4eab-bcad-f3f2e19de680.png)
+![image](https://user-images.githubusercontent.com/98762543/226187632-bf6378f5-e3f9-4e23-8eb8-9964977e61a5.png)
